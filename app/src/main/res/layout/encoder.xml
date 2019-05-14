@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:background="@drawable/background_color"
+	android:animateLayoutChanges="true">
+
+
+<LinearLayout
+	android:orientation="vertical"
+	android:paddingLeft="@dimen/activity_horizontal_margin"
+	android:paddingRight="@dimen/activity_horizontal_margin"
+	android:paddingTop="@dimen/activity_vertical_margin"
+	android:paddingBottom="@dimen/activity_vertical_margin"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+
+	<TextView
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:textSize="18sp"
+		android:layout_margin="10dp"
+		android:textColor="#FFFFFF"
+		android:text="Enkripsi"
+		android:textStyle="bold" />
+
+
+		<TextView
+			android:textStyle="bold"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textColor="#FFFFFF"
+			android:text="Input Kunci" />
+
+		<EditText
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:layout_margin="5dp"
+			android:textColor="#FFFFFF"
+			android:id="@+id/txtKey"/>
+
+		<TextView
+			android:id="@+id/text"
+			android:textStyle="bold"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textColor="#FFFFFF"
+			android:text="Pesan Rahasia" />
+
+		<EditText
+			android:id="@+id/txtpesanrahasia"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:layout_margin="5dp"
+			android:textColor="#FFFFFF"
+			android:scrollbars="vertical" />
+
+		<Button
+			android:text="Enkripsi"
+			android:id="@+id/btnEnkripsi"
+			android:drawableLeft="@drawable/enkripsi"
+			android:background="@drawable/btn_blue"
+			android:layout_margin="5dp"
+			style="@style/ButtonText" />
+
+		<TextView
+			android:textStyle="bold"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textColor="#FFFFFF"
+			android:text="Hasil Enkripsi Vigenere Cipher" />
+
+		<TextView
+			android:id="@+id/txtvigenerecipher"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_margin="5dp"
+			android:textColor="#FFFFFF"
+			 />
+
+		<TextView
+			android:textStyle="bold"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textColor="#FFFFFF"
+			android:text="Hasil Enkripsi Hill Cipher" />
+
+		<TextView
+			android:id="@+id/txthillcipher"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_margin="5dp"
+			android:textColor="#FFFFFF"
+			 />
+
+	<Button
+		android:text="Pilih Gambar"
+		android:drawableLeft="@drawable/select_image"
+		android:background="@drawable/btn_blue"
+		android:layout_margin="5dp"
+		style="@style/ButtonText"
+		android:id="@+id/btnPilihGambar" />
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textStyle="bold"
+		android:textColor="#FFFFFF"
+		android:text="Lokasi Gambar" />
+
+	<TextView
+		android:id="@+id/txtLokasiGambar"
+		android:layout_height="wrap_content"
+		android:layout_width="match_parent"
+		android:text="Lokasi"
+		android:textColor="#FFFFFF"
+		android:layout_margin="5dp"/>
+
+		<Button
+			android:text="Embedd Text"
+			android:id="@+id/btnEmbedd"
+			android:drawableLeft="@drawable/embed"
+			android:background="@drawable/btn_blue"
+			android:layout_margin="5dp"
+			style="@style/ButtonText" />
+
+
+		<ImageView
+			android:id="@+id/imgEmbedd"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:scaleType="fitCenter"
+			android:layout_alignParentBottom="true"
+			android:layout_gravity="bottom" />
+
+		<Button
+			android:text="Share"
+			android:id="@+id/btnShare"
+			android:layout_gravity="center"
+			android:layout_width="wrap_content"
+			android:drawableLeft="@drawable/share"
+			android:drawablePadding="15sp"
+			android:background="@drawable/btn_blue"
+			android:layout_margin="5dp"
+			style="@style/ButtonText"/>
+
+	</LinearLayout>
+
+</ScrollView>

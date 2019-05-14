@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:orientation="vertical"
+	android:background="@drawable/background_color"
+	android:animateLayoutChanges="true">
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:paddingLeft="@dimen/activity_horizontal_margin"
+		android:paddingRight="@dimen/activity_horizontal_margin"
+		android:paddingTop="@dimen/activity_vertical_margin"
+		android:paddingBottom="@dimen/activity_vertical_margin"
+		android:layout_margin="5dp"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent">
+
+
+		<TextView
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center"
+			android:textSize="18sp"
+			android:textColor="#FFFFFF"
+			android:layout_margin="10dp"
+			android:text="Dekripsi"
+			android:textStyle="bold" />
+
+		<Button
+			android:text="Pilih Gambar"
+			android:drawableLeft="@drawable/select_image"
+			android:background="@drawable/btn_blue"
+			android:layout_margin="5dp"
+			style="@style/ButtonText"
+			android:id="@+id/btnPilihGambar" />
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textStyle="bold"
+			android:textColor="#FFFFFF"
+			android:text="Lokasi Gambar" />
+
+		<TextView
+			android:text="Lokasi"
+			android:layout_margin="5dp"
+			android:textColor="#FFFFFF"
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:id="@+id/txtLokasiGambar"/>
+
+		<Button
+			android:text="Extract Text"
+			android:id="@+id/btnExtract"
+			android:drawableLeft="@drawable/extract"
+			android:background="@drawable/btn_blue"
+			android:layout_margin="5dp"
+			style="@style/ButtonText"  />
+
+		<TextView
+			android:textStyle="bold"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textColor="#FFFFFF"
+			android:text="Hasil Enkripsi Hill Cipher" />
+
+		<TextView
+			android:id="@+id/txthillcipher"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_margin="5dp"
+			android:textColor="#FFFFFF"
+			android:text="Hill Cipher" />
+
+		<TextView
+			android:textStyle="bold"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textColor="#FFFFFF"
+			android:text="Input Kunci" />
+
+		<EditText
+			android:layout_height="wrap_content"
+			android:layout_width="match_parent"
+			android:layout_margin="5dp"
+			android:textColor="#FFFFFF"
+			android:id="@+id/txtKey"/>
+
+		<Button
+			android:text="Dekripsi"
+			android:id="@+id/btnDekripsi"
+			android:drawableLeft="@drawable/dekripsi"
+			android:background="@drawable/btn_blue"
+			android:layout_margin="5dp"
+			style="@style/ButtonText"  />
+
+		<TextView
+			android:textStyle="bold"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textColor="#FFFFFF"
+			android:text="Hasil Dekripsi Vigenere Cipher" />
+
+		<TextView
+			android:id="@+id/txtVigenereDekrip"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_margin="5dp"
+			android:textColor="#FFFFFF"
+			android:text="Vigenere Cipher" />
+
+		<TextView
+			android:textStyle="bold"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textColor="#FFFFFF"
+			android:text="Pesan Rahasia" />
+
+		<TextView
+			android:id="@+id/txtpesanrahasia"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_margin="5dp"
+			android:textColor="#FFFFFF"
+			android:text="Pesan" />
+
+	</LinearLayout>
+
+</ScrollView>

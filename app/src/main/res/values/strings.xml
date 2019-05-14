@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">SteganografiCipher</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_help">Help</string>
+    <string name="title_activity_profil">About</string>
+    <string name="title_activity_enkripsi">Enkripsi</string>
+    <string name="title_activity_dekripsi">Dekripsi</string>
+    <string name="receiver">To:</string>
+    <string name="buttonSelect">Select image</string>
+    <string name="image">Image</string>
+    <string name="contact">Contact</string>
+    <string name="text">Text to encode</string>
+    <string name="send">Send</string>
+    <string name="hello2">Steganografi Receiver</string>
+    <string name="Button02">Decoding</string>
+    <string name="save">Embedd</string>
+    <string name="saved">Image saved</string>
+    <string name="decoding">Extracting</string>
+    <string name="encoding">Embedding</string>
+    <string name="saving">Saving</string>
+    <string name="ok">Ok</string>
+    <string name="decodeImage">Decode Image</string>
+    <string name="encodeImage">Encode Image</string>
+    <string name="errorNoMobistegoImage">No Steganografi Image</string>
+    <string name="errorImageTooLarge">Image too large</string>
+    <string name="errorPilihGambar">Pilih salah satu gambar</string>
+    <string name="judul">Kombinasi Algoritma Kriptografi Vigenere Cipher dan Hill Cipher\n Untuk Penyandian
+Pesan Rahasia pada Metode Steganografi</string>
+    <style name="ButtonText">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">2</item>
+    </style>
+</resources>
